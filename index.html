@@ -4,28 +4,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <header>
+      <h1>Brier Motors</h1>
+      <div class="border-header"></div>
+    </header>
+
     <main>
-      <header>
-        <h1>Brier Motors</h1>
-      </header>
 
       <section id="section-one">
 
         <div class="slideshow-container">
 
-        <div class="mySlides">
+        <div class="mySlides fade">
           <img src="http://wallup.net/wp-content/uploads/2017/03/28/434182-ultra-wide-car-Mercedes-Benz.png">
         </div>
 
-        <div class="mySlides">
+        <div class="mySlides fade">
           <img src="https://wallpaperscraft.com/image/mclaren_mp4_12c_sport_car_supercar_gray_sunset_94397_2560x1080.jpg">
         </div>
 
-        <div class="mySlides">
+        <div class="mySlides fade">
           <img src="http://2016lamborghini.us/wp-content/uploads/2016/10/Lamborghini-Huracan-Coupe-release.jpg">
         </div>
 
@@ -40,7 +45,39 @@
       </section>
 
       <section id="section-two">
+        <div class="tab">
+          <button class="tablinks" onmouseover="openCity(event, 'home')" id="defaultOpen">HOME</button>
+          <button class="tablinks" onmouseover="openCity(event, 'inventory')">INVENTORY</button>
+          <button class="tablinks" onmouseover="openCity(event, 'financing')">FINANCING</button>
+          <button class="tablinks" onmouseover="openCity(event, 'service')">SERVICE</button>
+          <!-- <button class="tablinks" onclick="openCity(event, 'contact')">CONTACT</button> -->
+        </div>
 
+        <div id="home" class="tabcontent">
+          <h3>HOME</h3>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,.</p>
+        </div>
+
+        <div id="inventory" class="tabcontent">
+          <h3>INVENTORY</h3>
+          <p>The function bigImg() is triggered when the user moves the mouse pointer over the image.
+              The function normalImg() is triggered when the mouse pointer is moved out of the image. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+        </div>
+
+        <div id="financing" class="tabcontent">
+          <h3>FINANCING</h3>
+          <p>Contrary to popular belief, Lorem Ipsum is when the mouse pointer is moved out of the image. Contrary to not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+        </div>
+
+        <div id="service" class="tabcontent">
+          <h3>SERVICE</h3>
+          <p>Contrary to popular belief,alImg() is triggered when the mouse pointer is moved out of the image. Contrary to popular belief, Lore Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+        </div>
+
+        <!-- <div id="contact" class="tabcontent">
+          <h3>CONTACT</h3>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p>
+        </div> -->
       </section>
 
       <section id="section-three">
