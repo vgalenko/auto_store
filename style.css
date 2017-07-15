@@ -19,7 +19,7 @@ h1 {
 }
 
 section {
-  height: 280px;
+  height: 270px;
 }
 
 #section-one {
@@ -81,7 +81,7 @@ body {font-family: Verdana,sans-serif;}
 }
 
 #section-two {
-  background: #EBEBEB;
+  background: #EFEEED;
 }
 
 /** {box-sizing: border-box}
@@ -93,14 +93,14 @@ div.tab {
     /*border: 1px solid #ccc;*/
     background-color: #F0B23E ;
     width: 25%;
-    height: 280px;
+    height: 100%;
 }
 
 /* Style the buttons inside the tab */
 div.tab button {
     display: block;
     background-color: inherit;
-    border: 1px solid black;
+
     color: black;
     padding: 22px 16px;
     width: 100%;
@@ -124,13 +124,24 @@ div.tab button.active {
 
 /* Style the tab content */
 .tabcontent {
-    /*float: left;*/
-    width: 70%;
     border-left: none;
-    height: 280px;
+    /*height: 280px;*/
+}
+
+#homeParagraph {
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: helvetica;
 }
 
 #section-three {
   /*background: #F2F3F4;*/
   background: green;
+}
+
+footer p{
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background: black;
 }
